@@ -1,21 +1,33 @@
 export default function Hero() {
   return (
-    <div className='min-h-screen px-[5.5%] grid grid-cols-2'>
-      <div className='flex flex-col justify-center gap-5'>
-        <div className='text-black text-4xl'>
-          Hello, my name is <span className='text-[#0D008A]'>Ivan Hopkins</span>{' '}
-          / Intuitor
+    <div className='min-h-screen px-[5.5%] grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-20'>
+      <div className='flex flex-col gap-10 justify-center items-center md:items-start'>
+        <img
+          className='w-[200px] h-[200px] object-cover object-top rounded-full'
+          src='images/ivan.jpg'
+        />
+
+        <div className='text-6xl text-black text-center md:text-left '>
+          Hello! I'm Ivan Hopkins
         </div>
-        <div className='text-black text-xl'>
+      </div>
+      <div className='flex flex-col gap-10 justify-start md:justify-center items-center md:items-start'>
+        <div className='text-4xl text-black text-center md:text-left'>
+          An intuitor based in Ulaanbaatar, Mongolia
+        </div>
+        <div className='text-xl text-[#959594] text-center md:text-left'>
           Helping you uncover your inner tutor and perfectly attend to what
           matters.
         </div>
-      </div>
-      <div className='h-full flex flex-col justify-center align-center'>
-        <img
-          src='images/portrait.jpeg'
-          className='w-[500px] h-[500px] object-cover object-top m-auto rounded-full  border-4'
-        />
+        <div className='flex flex-row gap-5'>
+          <div className='text-white py-3 px-4 bg-black rounded-xl'>
+            Talk with me
+          </div>
+
+          <div className='text-black py-3 px-4 bg-transparent border border-black rounded-xl'>
+            See my work
+          </div>
+        </div>
       </div>
     </div>
   );
