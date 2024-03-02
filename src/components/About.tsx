@@ -1,5 +1,5 @@
-import Lottie from "react-lottie";
-import AboutAnimation from "../animations/AboutAnimation.json";
+import Lottie from 'react-lottie';
+import AboutAnimation from '../animations/AboutAnimation.json';
 
 export default function About() {
   const defaultOptions = {
@@ -7,12 +7,12 @@ export default function About() {
     autoplay: true,
     animationData: AboutAnimation,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
+      preserveAspectRatio: 'xMidYMid slice',
     },
   };
 
   return (
-    <div className='min-h-screen bg-[#F5F4F1] px-[5.5%] flex flex-col justify-center'>
+    <div className='min-h-screen bg-[#F5F4F1] px-[5.5%] py-20 md:py-0 flex flex-col justify-center'>
       <div className='text-2xl md:text-4xl mb-10 md:mb-0 font-semibold md:font-normal text-black'>
         About me
       </div>

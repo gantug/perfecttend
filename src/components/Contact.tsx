@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className='min-h-screen px-[5.5%] flex flex-col justify-center'>
+    <div className='min-h-screen px-[5.5%] py-[5.5%] flex flex-col justify-center'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0'>
         <div className='h-full'>
           <div className='text-6xl text-black mb-10 font-medium'>
