@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 export default function Hero() {
   return (
     <div
@@ -24,12 +26,28 @@ export default function Hero() {
           Helping you unleash your inner potential.
         </div>
         <div className='flex flex-row gap-5'>
-          <div className='text-white py-3 px-4 bg-[#3F5DCC] rounded-xl font-light'>
-            Talk with me
+          <div className='text-white py-3 px-4 bg-[#3F5DCC] rounded-xl font-light cursor-pointer'>
+            <Link
+              activeClass='active'
+              to='contact'
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Talk with me
+            </Link>
           </div>
 
-          <div className='text-white py-3 px-4 bg-transparent border border-white rounded-xl font-light'>
-            See my work
+          <div className='text-white py-3 px-4 bg-transparent border border-white rounded-xl font-light cursor-pointer'>
+            <Link
+              activeClass='active'
+              to='work'
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              See my work
+            </Link>
           </div>
         </div>
       </div>

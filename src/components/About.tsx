@@ -21,7 +21,7 @@ export default function About() {
       </div>
       <div className='grid grid-cols-1  md:grid-cols-2 gap-20 items-center'>
         <div className='flex flex-col gap-10'>
-          <div className='text-xl text-white text-justify font-light'>
+          <div className='text-sm md:text-xl text-white text-justify font-light'>
             Ivan is a Mind coach and Psychologist as well as a pioneer,
             practitioner and teacher of human potential . He has spent the last
             18 years in the area of positive psychology, holistic health and
@@ -30,7 +30,7 @@ export default function About() {
             daily lives to help us have a more fulfilled life.
           </div>
 
-          <div className='text-xl text-white text-justify font-light'>
+          <div className='text-sm md:text-xl text-white text-justify font-light'>
             In November 2019, Ivan co organized a set of international medical
             conferences where experts from Japan, Ireland, China and Mongolia
             shared and explored their understanding and the research in the area
@@ -38,7 +38,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className=''>
+        <div className='max-w-[600px] m-auto'>
           <Lottie options={defaultOptions} />
         </div>
       </div>

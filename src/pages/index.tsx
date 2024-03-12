@@ -8,6 +8,8 @@ import Works from '@/components/Works';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
+import { ToastContainer, toast } from 'react-toastify';
+
 const poppin = Poppins({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -23,6 +25,7 @@ export default function Home() {
       <Works />
       <Contact />
       <Footer />
+      <ToastContainer />
     </main>
   );
 }

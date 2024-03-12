@@ -9,7 +9,7 @@ export default function Experience() {
           <div className='text-4xl text-white mb-10'>Experience</div>
           <div className='flex flex-col divide-y'>
             <div className='flex flex-col pb-5'>
-              <div className='text-xl text-white font-light'>
+              <div className='text-md md:text-xl text-white font-light'>
                 MNEMONICS and Rapid learning techniques
               </div>
               <div className='text-sm text-[#C8CBD9] font-light'>
@@ -18,7 +18,7 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 In house sales and Marketing Training
               </div>
               <div className='text-sm text-[#C8CBD9]'>
@@ -27,21 +27,21 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 Esoteric training in concentration and advanced mindfulness
               </div>
               <div className='text-sm text-[#C8CBD9]'>June 2004 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 Member of the PPA (Parapsychology association)
               </div>
               <div className='text-sm text-[#C8CBD9]'>June 2007 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 Member of the memory league
               </div>
               <div className='text-sm text-[#C8CBD9]'>
@@ -52,10 +52,10 @@ export default function Experience() {
         </div>
 
         <div className='flex flex-col '>
-          <div className='text-4xl text-white mb-10 font-light'>Expertise</div>
+          <div className='text-4xl text-white mb-10'>Expertise</div>
           <div className='flex flex-col divide-y'>
             <div className='flex flex-col pb-5'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 Honours Bsc Degree in Psychology
               </div>
               <div className='text-sm text-[#C8CBD9] font-light'>
@@ -65,12 +65,14 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>Photoreading certificate</div>
+              <div className='text-md md:text-xl text-white'>
+                Photoreading certificate
+              </div>
               <div className='text-sm text-[#C8CBD9]'>London, 2004</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-xl text-white'>
+              <div className='text-md md:text-xl text-white'>
                 Applied positive psychology coaching diploma
               </div>
               <div className='text-sm text-[#C8CBD9]'>Dublin, 2012 - 2013</div>

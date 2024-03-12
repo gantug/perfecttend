@@ -10,7 +10,7 @@ import {
 export default function Works() {
   return (
     <div
-      className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col justify-center'
+      className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col justify-center py-[64px] md:py-0'
       id='work'
     >
       <div className='text-4xl text-white mb-10'>Services</div>
