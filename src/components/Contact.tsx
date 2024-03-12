@@ -102,7 +102,7 @@ export default function Contact() {
       className='min-h-screen px-[5.5%] md:py-[5.5%] flex flex-col justify-center bg-black'
       id='contact'
     >
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-20'>
         <div className='h-full'>
           <div className='text-2xl md:text-6xl text-white mb-10 font-medium'>
             Let's work together!

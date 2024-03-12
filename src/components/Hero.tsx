@@ -23,7 +23,7 @@ export default function Hero() {
           The InTutor
         </div> */}
         <div className='text-sm md:text-xl text-[#E1E2F5] text-center md:text-center font-light'>
-          Helping you unleash your inner potential.
+          Your intuitor helping you uncover your latent and inner power.
         </div>
         <div className='flex flex-row gap-5'>
           <div className='text-white py-3 px-4 bg-[#3F5DCC] rounded-xl font-light cursor-pointer'>
