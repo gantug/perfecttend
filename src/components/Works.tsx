@@ -32,7 +32,7 @@ export default function Works() {
 
         <div className='p-5 rounded-xl h-[250px] text-white text-center border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
           <CiUser className='text-white w-full h-full max-w-[100px] max-h-[100px]' />
-          <div className='font-light'>Guest lecture</div>
+          <div className='font-light'>Guest lecturer</div>
         </div>
 
         <div className='p-5 rounded-xl h-[250px] text-white text-center border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>

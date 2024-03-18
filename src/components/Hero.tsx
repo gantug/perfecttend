@@ -15,7 +15,7 @@ export default function Hero() {
         <div
           className={`text-2xl md:text-6xl text-white text-center md:text-left`}
         >
-          Hello! I'm Ivan Hopkins
+          Meet <span className='capitalize font-bold'>"The Intuitor"</span>
         </div>
       </div>
       <div className='flex flex-col gap-10 justify-center items-center mt- '>
