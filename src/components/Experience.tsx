@@ -6,90 +6,90 @@ export default function Experience() {
     >
       <div className='h-full grid py-20 md:py-0 grid-cols-1 md:grid-cols-2 gap-20'>
         <div className='flex flex-col '>
-          <div className='text-4xl text-white mb-10'>
+          <h2 className='text-4xl text-white mb-10'>
             Professional Experience & Accreditation
-          </div>
+          </h2>
           <div className='flex flex-col divide-y'>
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Language and literature lecturer
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Head of Department of Language Department
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 'Real magic' Performer and Entertainer
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>2020 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 CBT NLP SFBT Humanistic Psychotherapist
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>2012 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 In house sales and Marketing Training
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 January 2006 - January 2009
               </div>
             </div>
 
             <div className='flex flex-col py-5 gap-2'>
-              <div className='text-md md:text-xl text-white font-light'>
+              <h3 className='text-md md:text-xl text-white font-light'>
                 MNEMONICS and Rapid learning techniques
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9] font-light'>
                 February 2001 - February 2003
               </div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Esoteric training in concentration and advanced mindfulness
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>June 2004 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Member of the PPA (Parapsychology association)
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>June 2007 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Member of the memory league
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 Current ranking: 105 out of 5000 members
               </div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Ki-Massage Healing Therapist
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>2007 - 2020</div>
             </div>
 
             <div className='flex flex-col py-5 gap-2'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Honours Bsc Degree in Psychology
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9] font-light'>
                 University of Wales, Bangor, United Kingdom, Spring 2003 -
                 Spring 2006
@@ -97,9 +97,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Photoreading certificate
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>London, 2004</div>
             </div>
 
@@ -113,14 +113,14 @@ export default function Experience() {
         </div>
 
         <div className='flex flex-col '>
-          <div className='text-4xl text-white mb-10'>
+          <h2 className='text-4xl text-white mb-10'>
             Unique repeitoire of skills
-          </div>
+          </h2>
           <div className='flex flex-col divide-y'>
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Renowned Teacher and lecturer
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 For over 12 years Ivan has lectured both in Psychology, Learning
                 Techniques as well as being a Literature teacher an the renowned
@@ -131,9 +131,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Mnemonics Expert
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 Ivan studied and then self-taught himself numerous memorization
                 techniques to aid him in becoming a renowned educator and coach.
@@ -146,9 +146,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Attention and Mental Concentration
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 After graduating with his BSc in Psychology Ivan under went
                 years of meditation and raja yoga concentration training. He
@@ -158,9 +158,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Heightened Perception
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 There are body language experts, mentalists and other experts
                 who can ‘perceive’ a lot about a person from applying certain
@@ -175,9 +175,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Intuition Expert
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 Ivan has developed a world-class capacity to ‘perceive’
                 information about people and situations – information which
@@ -212,9 +212,9 @@ export default function Experience() {
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
-              <div className='text-md md:text-xl text-white'>
+              <h3 className='text-md md:text-xl text-white'>
                 Advanced Visualisation techniques
-              </div>
+              </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 After initial mentoring from his raja yoga master and prominent
                 psychology supervisor Ivan practiced and then trained others in

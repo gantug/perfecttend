@@ -13,7 +13,7 @@ export default function Works() {
       className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col justify-center py-[64px] md:py-0'
       id='work'
     >
-      <div className='text-4xl text-white mb-10'>Services</div>
+      <h2 className='text-4xl text-white mb-10'>Services</h2>
 
       <div className='h-full grid grid-cols-1 md:grid-cols-3 gap-10'>
         <div className='p-5 rounded-xl h-[250px] text-white text-center border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>

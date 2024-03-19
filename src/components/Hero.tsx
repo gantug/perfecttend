@@ -12,19 +12,19 @@ export default function Hero() {
           src='images/selfie.jpeg'
         />
 
-        <div
+        <h1
           className={`text-2xl md:text-6xl text-white text-center md:text-left`}
         >
           Meet <span className='capitalize font-bold'>"The Intuitor"</span>
-        </div>
+        </h1>
       </div>
       <div className='flex flex-col gap-10 justify-center items-center mt- '>
         {/* <div className='text-xl md:text-2xl text-white text-center md:text-center font-light'>
           The InTutor
         </div> */}
-        <div className='text-sm md:text-xl text-[#E1E2F5] text-center md:text-center font-light'>
+        <p className='text-sm md:text-xl text-[#E1E2F5] text-center md:text-center font-light'>
           Your intuitor helping you uncover your latent and inner power.
-        </div>
+        </p>
         <div className='flex flex-row gap-5'>
           <div className='text-white py-3 px-4 bg-[#3F5DCC] rounded-xl font-light cursor-pointer'>
             <Link
