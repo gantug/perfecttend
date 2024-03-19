@@ -1,5 +1,5 @@
-import Lottie from 'react-lottie';
-import AboutAnimation from '../animations/AboutAnimation.json';
+import Lottie from "react-lottie";
+import AboutAnimation from "../animations/AboutAnimation.json";
 
 export default function About() {
   const defaultOptions = {
@@ -7,7 +7,7 @@ export default function About() {
     autoplay: true,
     animationData: AboutAnimation,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
+      preserveAspectRatio: "xMidYMid slice",
     },
   };
 
@@ -54,16 +54,16 @@ export default function About() {
           </p>
           <p className='text-sm md:text-xl text-white text-justify font-light'>
             But perhaps what makes Ivan unique is that: Ivan is one of the few
-            people in the world who can{' '}
+            people in the world who can{" "}
             <span className='font-bold underline underline-offset-4'>
               DEMONSTRATE DETAILED INTUITIVE AWARENESS on demand*
-            </span>{' '}
-            – in other he can demonstrate the extraordinary (with any tricks) at
-            the drop of a hat. *According to research in parapsychology - as few
-            as{' '}
+            </span>{" "}
+            – in other words he can demonstrate the extraordinary (without any
+            tricks) at the drop of a hat. *According to research in
+            parapsychology - as few as{" "}
             <span className='underline underline-offset-4'>
               1 in 1000 claimed ‘psychics’
-            </span>{' '}
+            </span>{" "}
             can demonstrate useful awareness at will. Ivan is one of these rare
             few. See video for one of many demos Ivan performs:
           </p>
