@@ -19,7 +19,7 @@ export default function Experience() {
 
             <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
-                Head of Department of Language Department
+                Head of Languages Department
               </h3>
               <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
@@ -36,6 +36,13 @@ export default function Experience() {
                 CBT NLP SFBT Humanistic Psychotherapist
               </h3>
               <div className='text-sm text-[#C8CBD9]'>2012 - Present</div>
+            </div>
+
+            <div className='flex flex-col gap-2 py-5 font-light'>
+              <h3 className='text-md md:text-xl text-white'>
+                Past Honoury Member and Member of Toastermasters
+              </h3>
+              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
@@ -168,7 +175,7 @@ export default function Experience() {
                 perceptive abilities to produce feats that border on super
                 human. One example of this is Ivan can perceive a total
                 stranger’s name in 2 to 3 attempts. He can also ‘guess’ the
-                playing cards a poker player has in a 2 to 3 attempts. These
+                playing cards a poker player has in 1 or 2 attempts. These
                 claims are documented with video evidence and testimonials from
                 volunteers.
               </div>
@@ -187,7 +194,7 @@ export default function Experience() {
                 will (very rare ability even among claimed psychics) intuitive
                 awareness such as being able to casually ‘know’ playing cards
                 face down. He has a number of videos documenting this ability.
-                Here is{' '}
+                Here is{" "}
                 <a
                   className='text-white'
                   href='https://www.youtube.com/watch?v=jiforOAnXWs'
