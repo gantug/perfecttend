@@ -180,6 +180,19 @@ export default function Header() {
             Services
           </Link>
         </div>
+
+        <div className='opacity-50 hover:opacity-100 transition duration-300 cursor-pointer'>
+          <Link
+            activeClass='active'
+            to='videos'
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Services
+          </Link>
+        </div>
+
         <div className='opacity-50 hover:opacity-100 transition duration-300 cursor-pointer'>
           <Link
             activeClass='active'
@@ -276,7 +289,7 @@ export default function Header() {
         </motion.nav>
       </div>
 
-      <button
+      {/* <button
         onClick={handleClick}
         className='flex-col flex md:hidden w-fit'
       >
@@ -298,7 +311,7 @@ export default function Header() {
                       isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
                     }`}
         ></span>
-      </button>
+      </button> */}
     </header>
   );
 }

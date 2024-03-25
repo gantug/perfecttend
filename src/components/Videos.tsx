@@ -12,7 +12,7 @@ export default function Videos() {
   return (
     <div
       className='min-h-screen bg-black px-[5.5%] flex flex-col justify-center py-[64px] md:py-0'
-      id='work'
+      id='videos'
     >
       <h2 className='text-4xl text-white mb-10'>Ivan's videos</h2>
 
