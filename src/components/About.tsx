@@ -1,7 +1,10 @@
 import Lottie from 'react-lottie';
 import AboutAnimation from '../animations/AboutAnimation.json';
+import { useState } from 'react';
 
 export default function About() {
+  const [readMore, setReadMore] = useState<boolean>(false);
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -20,7 +23,9 @@ export default function About() {
         About Ivan
       </h2>
       <div className='grid grid-cols-1  md:grid-cols-2 gap-20  pb-[6.5%]'>
-        <div className='flex flex-col gap-10'>
+        <div
+          className={`${readMore ? 'block' : 'hidden'} flex flex-col gap-10`}
+        >
           <p className='text-sm md:text-xl text-white text-justify font-light'>
             Ivan is a Mind coach and Psychologist as well as a pioneer,
             practitioner and teacher of human potential . He has spent the last
@@ -81,6 +86,45 @@ export default function About() {
               My typical clairvoyance demonstrated
             </a>
           </p>
+
+          <div
+            className='underline underline-offset-8 cursor-pointer'
+            onClick={() => setReadMore(false)}
+          >
+            Read less
+          </div>
+        </div>
+
+        <div
+          className={`${readMore ? 'hidden' : 'block'} flex flex-col gap-10`}
+        >
+          <p className='text-sm md:text-xl text-white text-justify font-light'>
+            Ivan is a Mind coach and Psychologist as well as a pioneer,
+            practitioner and teacher of human potential . He has spent the last
+            20+ years in the area of positive psychology, holistic health and
+            accelerated learning. He lives and works by the motto that ‘Results
+            count’ and that anything we learn should be implemented into our
+            daily lives to help us have a more fulfilled life.
+          </p>
+
+          <p className='text-sm md:text-xl text-white text-justify font-light'>
+            In November 2019, Ivan co organized a set of international medical
+            conferences where experts from Japan, Ireland, China and Mongolia
+            shared and explored their understanding and the research in the area
+            of pain free operations without the use of general anesthetic.
+          </p>
+          <p className='text-sm md:text-xl text-white text-justify font-light'>
+            With a large proportion of the world glued to A.I. its potential and
+            its possible devastating effect on society there are only a few
+            people who are developing themselves and those they teach. One of
+            the most effective – certainly in an applied way – is Ivan.
+          </p>
+          <div
+            className='underline underline-offset-8 cursor-pointer'
+            onClick={() => setReadMore(true)}
+          >
+            Read more
+          </div>
         </div>
 
         <div className='max-w-[600px] m-auto'>

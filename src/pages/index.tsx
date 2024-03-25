@@ -6,6 +6,7 @@ import Experience from '@/components/Experience';
 import Works from '@/components/Works';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import Videos from '@/components/Videos';
 import { NextSeo } from 'next-seo';
 
 import { ToastContainer } from 'react-toastify';
@@ -48,6 +49,7 @@ export default function Home() {
       <About />
       <Experience />
       <Works />
+      <Videos />
       <Contact />
       <Footer />
       <ToastContainer />
