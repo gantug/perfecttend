@@ -12,16 +12,9 @@ export default function Experience() {
           <div className='flex flex-col divide-y'>
             <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
-                Language and literature lecturer
+                CBT NLP SFBT Humanistic Psychotherapist
               </h3>
-              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
-            </div>
-
-            <div className='flex flex-col gap-2 py-5 font-light'>
-              <h3 className='text-md md:text-xl text-white'>
-                Head of Languages Department
-              </h3>
-              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
+              <div className='text-sm text-[#C8CBD9]'>2012 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
@@ -33,9 +26,16 @@ export default function Experience() {
 
             <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
-                CBT NLP SFBT Humanistic Psychotherapist
+                Head of Languages Department
               </h3>
-              <div className='text-sm text-[#C8CBD9]'>2012 - Present</div>
+              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
+            </div>
+
+            <div className='flex flex-col gap-2 py-5 font-light'>
+              <h3 className='text-md md:text-xl text-white'>
+                Language and literature lecturer
+              </h3>
+              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
@@ -194,7 +194,7 @@ export default function Experience() {
                 will (very rare ability even among claimed psychics) intuitive
                 awareness such as being able to casually ‘know’ playing cards
                 face down. He has a number of videos documenting this ability.
-                Here is{" "}
+                Here is{' '}
                 <a
                   className='text-white'
                   href='https://www.youtube.com/watch?v=jiforOAnXWs'
