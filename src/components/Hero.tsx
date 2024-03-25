@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -13,7 +13,7 @@ export default function Hero() {
         />
 
         <h1
-          className={`text-2xl md:text-6xl text-white text-center md:text-left`}
+          className={`text-4xl md:text-6xl text-white text-center md:text-left`}
         >
           Meet <span className='capitalize font-bold'>"The Intuitor"</span>
         </h1>
@@ -34,7 +34,7 @@ export default function Hero() {
               smooth={true}
               duration={500}
             >
-              Talk with me
+              Talk with Ivan
             </Link>
           </div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
               smooth={true}
               duration={500}
             >
-              See my work
+              See Ivan's works
             </Link>
           </div>
         </div>
