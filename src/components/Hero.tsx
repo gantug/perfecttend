@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 
 export default function Hero() {
   return (
@@ -8,8 +8,8 @@ export default function Hero() {
     >
       <div className='flex flex-col gap-10 justify-end md:justify-center items-center md:items-start'>
         <img
-          className='w-[300px] h-[300px] object-cover object-center rounded-full m-auto'
-          src='images/selfie.jpeg'
+          className='w-[300px] h-[300px] object-cover object-top rounded-full m-auto'
+          src='images/ivans.jpeg'
         />
 
         <h1

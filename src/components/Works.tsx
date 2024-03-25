@@ -35,10 +35,12 @@ export default function Works() {
           </div>
         </Link>
 
-        <div className='p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-not-allowed'>
-          <CiUser className='text-white w-full h-full max-w-[100px] max-h-[100px]' />
-          <div className='font-light'>Guest lecturer</div>
-        </div>
+        <Link href='/works/guest-lecturer'>
+          <div className='p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
+            <CiUser className='text-white w-full h-full max-w-[100px] max-h-[100px]' />
+            <div className='font-light'>Guest lecturer</div>
+          </div>
+        </Link>
 
         <Link href='/works/corporate-training'>
           <div className='p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>

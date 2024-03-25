@@ -23,8 +23,8 @@ export default function Videos() {
         >
           <div className='p-5 rounded-xl min-h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <iframe
-              className='w-full h-full min-h-[250px] border rounded-xl'
-              src='https://youtu.be/GAAJ4P2g5oc'
+              className='w-full h-full min-h-[250px] border rounded-xl border-none'
+              src='https://www.youtube.com/embed/GAAJ4P2g5oc?si=TGnPOJYSJ7IyVzJO'
             ></iframe>
             <div className='font-light'>Human Technology My Vision</div>
           </div>
@@ -35,8 +35,8 @@ export default function Videos() {
         >
           <div className='p-5 rounded-xl min-h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <iframe
-              className='w-full h-full min-h-[250px] border rounded-xl'
-              src='https://youtu.be/1ZRnCTeVIZQ'
+              className='w-full h-full min-h-[250px] border rounded-xl border-none'
+              src='https://www.youtube.com/embed/1ZRnCTeVIZQ?si=XNnqUNHA0To2y8Um'
             ></iframe>
             <div className='font-light'>
               Objective Demo of Intuition using Random generated cards
