@@ -127,8 +127,11 @@ export default function About() {
           </div>
         </div>
 
-        <div className='max-w-[600px] m-auto'>
-          <Lottie options={defaultOptions} />
+        <div className='w-full'>
+          <img
+            className='object-cover w-[400px] object-top rounded-xl  m-auto'
+            src='images/ivan2.jpeg'
+          />
         </div>
       </div>
     </div>
