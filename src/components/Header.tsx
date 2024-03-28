@@ -189,7 +189,7 @@ export default function Header() {
             smooth={true}
             duration={500}
           >
-            Services
+            Videos
           </Link>
         </div>
 

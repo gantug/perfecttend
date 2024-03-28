@@ -46,7 +46,7 @@ export default function Hero() {
               smooth={true}
               duration={500}
             >
-              See Ivan's works
+              See Ivan's work
             </Link>
           </div>
         </div>
