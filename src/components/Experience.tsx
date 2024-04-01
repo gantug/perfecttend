@@ -40,7 +40,7 @@ export default function Experience() {
 
             <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
-                Past Honoury Member and Member of Toastermasters
+                Past Honoury Member and Member of Toastmasters
               </h3>
               <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
@@ -98,8 +98,7 @@ export default function Experience() {
                 Honours Bsc Degree in Psychology
               </h3>
               <div className='text-sm text-[#C8CBD9] font-light'>
-                University of Wales, Bangor, United Kingdom, Spring 2003 -
-                Spring 2006
+                University of Wales, Bangor, United Kingdom, 2003 - 2006
               </div>
             </div>
 
@@ -130,7 +129,7 @@ export default function Experience() {
               </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 For over 12 years Ivan has lectured both in Psychology, Learning
-                Techniques as well as being a Literature teacher an the renowned
+                Techniques as well as being a Literature teacher at the renowned
                 IB Academy. He has managed to assist more than 700 students in
                 received top exam scores and his lectures are innovative and
                 captivating.
@@ -211,7 +210,7 @@ export default function Experience() {
               </div>
               <div className='text-sm text-[#C8CBD9]'>
                 Along with studying an array of techniques including ‘speed
-                reading’ Ivan has training and more importantly applying many of
+                reading’ Ivan has training and more importantly applied many of
                 the most effective techniques such as the ‘Pomodoro technique’
                 to assist his students and clients work and learn more
                 efficiently.
