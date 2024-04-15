@@ -18,13 +18,13 @@ export default function Videos() {
 
       <div className='h-full grid grid-cols-1 md:grid-cols-3 gap-10'>
         <Link
-          href={'https://youtu.be/g5B_udAX0lo?si=pzahfBbCNfY-f6yd'}
+          href={'https://youtu.be/Aw3uL3HlJvM?si=4HTW-Gccy1evHa69'}
           target='_blank'
         >
           <div className='p-5 rounded-xl min-h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <iframe
               className='w-full h-full min-h-[250px] border rounded-xl border-none'
-              src='https://www.youtube.com/embed/g5B_udAX0lo?si=9ArS_x7XtwAwQRzc'
+              src='https://www.youtube.com/embed/Aw3uL3HlJvM?si=bO5WvtGz7V9i6Shb'
             ></iframe>
             <div className='font-light'>Precognition Testimonial</div>
           </div>
