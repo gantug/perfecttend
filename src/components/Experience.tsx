@@ -187,13 +187,11 @@ export default function Experience() {
               <div className='text-sm text-[#C8CBD9]'>
                 Ivan has developed a world-class capacity to ‘perceive’
                 information about people and situations – information which
-                comes from somewhere other than the 5 physical senses. Ivan has
-                gained the attention and respect of top researchers in this area
-                including Dr. Dean Radin. Interestingly Ivan can demonstrate at
-                will (very rare ability even among claimed psychics) intuitive
-                awareness such as being able to casually ‘know’ playing cards
-                face down. He has a number of videos documenting this ability.
-                Here is{' '}
+                comes from somewhere other than the 5 physical senses.
+                Interestingly Ivan can demonstrate at will (very rare ability
+                even among claimed psychics) intuitive awareness such as being
+                able to casually ‘know’ playing cards face down. He has a number
+                of videos documenting this ability. Here is{' '}
                 <a
                   className='text-white'
                   href='https://www.youtube.com/watch?v=jiforOAnXWs'
