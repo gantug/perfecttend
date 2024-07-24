@@ -15,7 +15,8 @@ export default function Hero() {
         <h1
           className={`text-4xl md:text-6xl text-white text-center md:text-left`}
         >
-          Meet <span className='capitalize font-bold'>"The Intuitor"</span>
+          Meet{' '}
+          <span className='capitalize font-bold'>"The Attention Trainer"</span>
         </h1>
       </div>
       <div className='flex flex-col gap-10 justify-center items-center mt- '>

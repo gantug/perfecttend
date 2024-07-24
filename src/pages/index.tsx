@@ -20,11 +20,11 @@ export default function Home() {
   return (
     <main className={`min-h-screen bg-white  ${poppin.className} relative`}>
       <NextSeo
-        title='Ivan Hopkins | The Intuitor'
+        title='Ivan Hopkins | The Attention Trainer'
         description='Your intuitor helping you uncover your latent and inner power.'
         openGraph={{
           url: 'https://www.perfecttend.com/',
-          title: 'Ivan Hopkins',
+          title: 'Ivan Hopkins | The Attention Trainer',
           description:
             'Your intuitor helping you uncover your latent and inner power.',
           images: [
