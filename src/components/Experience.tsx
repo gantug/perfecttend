@@ -74,7 +74,7 @@ export default function Experience() {
               <h3 className='text-md md:text-xl text-white'>
                 Member of the PPA (Parapsychology association)
               </h3>
-              <div className='text-sm text-[#C8CBD9]'>June 2007 - Present</div>
+              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
