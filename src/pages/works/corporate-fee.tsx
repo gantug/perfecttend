@@ -17,7 +17,7 @@ export default function Works() {
         </h1>
       </div>
 
-      <div className='flex flex-col gap-5 font-light'>
+      <div className='flex flex-col gap-5 font-light text-white'>
         <p>
           The fee is discussed with management and is based on a number of
           factors including number of staff etc.
@@ -29,7 +29,7 @@ export default function Works() {
           coaching to a variety of organisations including :
         </p>
 
-        <ul className='list-disc ml-5'>
+        <ul className='list-disc ml-5 text-white'>
           <li>Hunnu Coal</li>
           <li>USP</li>
           <li>Blayney Blades</li>

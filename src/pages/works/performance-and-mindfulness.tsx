@@ -18,7 +18,7 @@ export default function Works() {
         </h1>
       </div>
 
-      <div className='flex flex-col gap-5 font-light'>
+      <div className='flex flex-col gap-5 font-light text-white'>
         <p>
           In these interactive sessions, which generally last 2.5 hours, the
           staff learn practical techniques in Mindfulness and from the area of
