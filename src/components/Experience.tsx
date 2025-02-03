@@ -28,14 +28,12 @@ export default function Experience() {
               <h3 className='text-md md:text-xl text-white'>
                 Head of Languages Department
               </h3>
-              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
                 Language and literature lecturer
               </h3>
-              <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
             <div className='flex flex-col gap-2 py-5 font-light'>
@@ -45,14 +43,14 @@ export default function Experience() {
               <div className='text-sm text-[#C8CBD9]'>2021 - Present</div>
             </div>
 
-            <div className='flex flex-col gap-2 py-5 font-light'>
+            {/* <div className='flex flex-col gap-2 py-5 font-light'>
               <h3 className='text-md md:text-xl text-white'>
                 In house sales and Marketing Training
               </h3>
               <div className='text-sm text-[#C8CBD9]'>
                 January 2006 - January 2009
               </div>
-            </div>
+            </div> */}
 
             <div className='flex flex-col py-5 gap-2'>
               <h3 className='text-md md:text-xl text-white font-light'>

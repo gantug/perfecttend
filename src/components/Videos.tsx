@@ -18,15 +18,15 @@ export default function Videos() {
 
       <div className='h-full grid grid-cols-1 md:grid-cols-3 gap-10'>
         <Link
-          href={'https://youtu.be/Aw3uL3HlJvM?si=4HTW-Gccy1evHa69'}
+          href={'https://youtu.be/YEUFX349irw?si=1eRFZqSZvOyy71BM'}
           target='_blank'
         >
           <div className='p-5 rounded-xl min-h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <iframe
               className='w-full h-full min-h-[250px] border rounded-xl border-none'
-              src='https://www.youtube.com/embed/Aw3uL3HlJvM?si=bO5WvtGz7V9i6Shb'
+              src='https://www.youtube.com/embed/YEUFX349irw?si=1eRFZqSZvOyy71BM'
             ></iframe>
-            <div className='font-light'>Precognition Testimonial</div>
+            <div className='font-light'>Intro and Background video</div>
           </div>
         </Link>
 
@@ -43,16 +43,16 @@ export default function Videos() {
           </div>
         </Link>
         <Link
-          href={'https://youtu.be/1ZRnCTeVIZQ'}
+          href={'https://youtu.be/x0s2mZ9qCEs?si=hofdo6SsTNOoDJsj'}
           target='_blank'
         >
           <div className='p-5 rounded-xl min-h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <iframe
               className='w-full h-full min-h-[250px] border rounded-xl border-none'
-              src='https://www.youtube.com/embed/1ZRnCTeVIZQ?si=XNnqUNHA0To2y8Um'
+              src='https://www.youtube.com/embed/x0s2mZ9qCEs?si=hofdo6SsTNOoDJsj'
             ></iframe>
             <div className='font-light'>
-              Objective Demo of Intuition using Random generated cards
+              The 2 Prerequisites for Taping into your Inner Tutor
             </div>
           </div>
         </Link>

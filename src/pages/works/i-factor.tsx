@@ -13,7 +13,7 @@ export default function Works() {
       <div className='flex flex-col gap-10 md:mt-[5rem]'>
         <GoBack linkHref='#work' />
         <h1 className='text-xl md:text-4xl text-green-400 mb-10 font-bold'>
-          The 'I' Factor Programme
+          The Intuition training program
         </h1>
       </div>
 

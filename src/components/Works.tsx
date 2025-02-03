@@ -52,7 +52,7 @@ export default function Works() {
         <Link href='/works/i-factor'>
           <div className='p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer'>
             <CiRead className='text-white w-full h-full max-w-[100px] max-h-[100px]' />
-            <div className='font-light'>The "I" factor programme</div>
+            <div className='font-light'>The Intuition training program</div>
           </div>
         </Link>
 
