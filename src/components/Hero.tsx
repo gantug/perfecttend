@@ -15,7 +15,7 @@ export default function Hero() {
         <h1
           className={`text-4xl md:text-6xl text-white text-center md:text-center`}
         >
-          Meet the attention and intuition trainer
+          Meet the Attention and Intuition trainer
         </h1>
       </div>
       <div className='flex flex-col gap-10 justify-center items-center mt- '>
