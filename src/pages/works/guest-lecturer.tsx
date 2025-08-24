@@ -1,19 +1,19 @@
-import GoBack from '@/components/utils/GoBack';
+import GoBack from "@/components/utils/GoBack";
 
 export default function Works() {
   return (
     <div
-      className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0'
-      id='work'
+      className="min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0"
+      id="work"
     >
-      <div className='flex flex-col gap-10 md:mt-[5rem]'>
-        <GoBack linkHref='#work' />
-        <h1 className='text-xl md:text-4xl text-green-400 mb-10 font-bold'>
+      <div className="flex flex-col gap-10 md:mt-[5rem]">
+        <GoBack linkHref="#work" />
+        <h1 className="text-xl md:text-4xl text-green-400 mb-10 font-bold">
           Corporate coaching fee
         </h1>
       </div>
 
-      <div className='flex flex-col gap-5 font-light'>
+      <div className="flex flex-col gap-5 font-light">
         <p>
           Ivan is a prolific speaker known for his engaging and enlightening
           presentations. He hosts a variety of workshops and courses on
@@ -33,6 +33,10 @@ export default function Works() {
           Colleagues, clients, and students alike admire Ivan for his animated
           delivery, entertaining style, and ability to inspire audiences with
           his tantalizing talks.
+        </p>
+
+        <p>
+          The fee for the half day workshop and lecture is 900 EUR or 1000 USD
         </p>
       </div>
     </div>

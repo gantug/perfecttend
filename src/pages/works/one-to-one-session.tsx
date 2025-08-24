@@ -1,25 +1,24 @@
-import { useRouter } from 'next/router';
-import { SlArrowLeft } from 'react-icons/sl';
-import GoBack from '@/components/utils/GoBack';
+import GoBack from "@/components/utils/GoBack";
+import { useRouter } from "next/router";
 
 export default function Works() {
   const router = useRouter();
 
   return (
     <div
-      className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0'
-      id='work'
+      className="min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0"
+      id="work"
     >
-      <div className='flex flex-col gap-10 md:mt-[5rem]'>
-        <GoBack linkHref='#work' />
+      <div className="flex flex-col gap-10 md:mt-[5rem]">
+        <GoBack linkHref="#work" />
 
-        <h1 className='text-xl md:text-4xl text-white mb-10 font-bold'>
-          Zoom or in person:{' '}
-          <span className='text-green-400'>One-to-one session</span>
+        <h1 className="text-xl md:text-4xl text-white mb-10 font-bold">
+          Zoom or in person:{" "}
+          <span className="text-green-400">One-to-one session</span>
         </h1>
       </div>
 
-      <div className='flex flex-col gap-5 font-light'>
+      <div className="flex flex-col gap-5 font-light">
         <p>
           ONE to ONE sessions in person OR via Zoom, with Ivan Hopkins –
           Psychologist and Mind coach. Expert in advanced Concentration and
@@ -29,9 +28,9 @@ export default function Works() {
           psychology techniques, and performance coaching.
         </p>
         <p>
-          A single session costs €100. For best results, it is of course
-          generally necessary to have several sessions as I find clients get
-          more in depth results by having several sessions.
+          A single session costs 180 EUR or 200 USD. For best results, it is of
+          course generally necessary to have several sessions as I find clients
+          get more in depth results by having several sessions.
         </p>
         <p>
           With individuals, I assist my clients with learning to relax, managing
