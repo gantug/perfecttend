@@ -18,7 +18,7 @@ export default function Works() {
         </h1>
       </div>
 
-      <div className="flex flex-col gap-5 font-light">
+      <div className="flex flex-col gap-5 font-light text-white">
         <p>
           ONE to ONE sessions in person OR via Zoom, with Ivan Hopkins –
           Psychologist and Mind coach. Expert in advanced Concentration and

@@ -13,11 +13,11 @@ export default function Works() {
       <div className='flex flex-col gap-10 md:mt-[5rem]'>
         <GoBack linkHref='#work' />
         <h1 className='text-xl md:text-4xl text-green-400 mb-10 font-bold'>
-          The 'I' Factor Programme
+          The Intuition training program
         </h1>
       </div>
 
-      <div className='flex flex-col gap-5 font-light'>
+      <div className='flex flex-col gap-5 font-light text-white'>
         <p>
           We are living in a time when the majority of people know more about
           their ‘Smart’ phone than the mechanisms of their own mind and more

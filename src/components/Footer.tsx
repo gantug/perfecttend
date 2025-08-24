@@ -5,7 +5,7 @@ export default function Footer() {
         © 2024 Ivan Hopkins, all rights reserved.
       </div>
       <div className='hidden md:flex flex-col md:flex-row gap-5 md:gap-10  p-3'>
-        <a href='mailto:perfecttend.perfecttend@yahoo.com'>
+        <a href='mailto:attendtowin@proton.me'>
           <div>Email</div>
         </a>
       </div>

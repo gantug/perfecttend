@@ -13,7 +13,7 @@ export default function Works() {
         </h1>
       </div>
 
-      <div className="flex flex-col gap-5 font-light">
+      <div className="flex flex-col gap-5 font-light text-white">
         <p>
           Ivan is a prolific speaker known for his engaging and enlightening
           presentations. He hosts a variety of workshops and courses on
