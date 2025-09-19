@@ -1,46 +1,64 @@
-import GoBack from '@/components/utils/GoBack';
-import { useRouter } from 'next/router';
-import { SlArrowLeft } from 'react-icons/sl';
+// app/works/performance-and-mindfulness/page.tsx
+"use client";
 
-export default function Works() {
-  const router = useRouter();
+import WorkPageShell from "@/components/WorkPageShell";
 
+export default function PerformanceAndMindfulness() {
   return (
-    <div
-      className='min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0'
-      id='work'
+    <WorkPageShell
+      title="Performance and mindfulness workshops"
+      subtitle="Interactive, practical, and tailored to your team"
     >
-      <div className='flex flex-col gap-10 md:mt-[5rem]'>
-        <GoBack linkHref='#work' />
-        <h1 className='text-xl md:text-4xl text-green-400 mb-10 font-bold'>
-          Performance and mindfulness workshops
-          {/* <span className='text-green-400'>One-to-one session</span> */}
-        </h1>
-      </div>
+      <p>
+        These participative sessions run ~2.5 hours and blend mindfulness with
+        performance coaching. Content is customized to your company and role
+        profiles.
+      </p>
 
-      <div className='flex flex-col gap-5 font-light text-white'>
-        <p>
-          In these interactive sessions, which generally last 2.5 hours, the
-          staff learn practical techniques in Mindfulness and from the area of
-          performance coaching. Workshops are tailor-made to suit the individual
-          company. Below are some of the elements that are taught and explored
-          during these coaching sessions:
-        </p>
-        <ul className='list-disc ml-5'>
-          <li>Setting long-term and short-term goals</li>
-          <li>Mindfulness Based Stress Reduction techniques</li>
-          <li>Concentration and attention development techniques</li>
-          <li>The latest Communication techniques and Skills</li>
-          <li>Excelling at your job</li>
-        </ul>
-        <p>
-          Each workshop includes mindfulness practice and tips on incorporating
-          mindfulness into the workplace. Workshops are participative rather
-          than lecture-based, are fun and rewarding for participants, and the
-          skills learned encourage intrinsic motivation and natural positive
-          reinforcement.
-        </p>
+      {/* Focus areas */}
+      <h2 className="text-white/90 text-lg md:text-xl mt-2">Focus areas</h2>
+      <ul className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {[
+          "Setting long-term and short-term goals",
+          "Mindfulness-Based Stress Reduction",
+          "Concentration and attention development",
+          "Modern communication skills",
+          "Excelling at your job",
+        ].map((t) => (
+          <li
+            key={t}
+            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 backdrop-blur-xl text-white/90"
+          >
+            {t}
+          </li>
+        ))}
+      </ul>
+
+      {/* What participants do */}
+      <p>
+        Each workshop includes live practice and concrete take-home routines to
+        bring mindfulness into daily work. The format is hands-on, engaging, and
+        designed to build intrinsic motivation and positive reinforcement.
+      </p>
+
+      {/* Quick facts card */}
+      <div className="group relative rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+        <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity group-hover:opacity-100" />
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-white/90">
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Duration</div>
+            <div className="text-base">~2.5 hours</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Format</div>
+            <div className="text-base">Interactive workshop</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Customization</div>
+            <div className="text-base">Tailor-made per team</div>
+          </div>
+        </div>
       </div>
-    </div>
+    </WorkPageShell>
   );
 }

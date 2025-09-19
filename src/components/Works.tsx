@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import {
   CiChat1,
@@ -9,70 +11,114 @@ import {
   CiVoicemail,
 } from "react-icons/ci";
 
+const services = [
+  {
+    href: "/works/one-to-one-session",
+    title: "Zoom or in person: One-to-one session",
+    Icon: CiVoicemail,
+  },
+  {
+    href: "/works/performance-and-mindfulness",
+    title: "Performance and mindfulness workshops",
+    Icon: CiViewTable,
+  },
+  { href: "/works/guest-lecturer", title: "Guest lecturer", Icon: CiUser },
+  {
+    href: "/works/corporate-training",
+    title: "Corporate training & coaching",
+    Icon: CiSettings,
+  },
+  {
+    href: "/works/i-factor",
+    title: "The Intuition training program",
+    Icon: CiRead,
+  },
+  {
+    href: "/works/corporate-fee",
+    title: "Corporate coaching fee",
+    Icon: CiChat1,
+  },
+  {
+    href: "/works/weekend-intensive",
+    title:
+      "2 Day • Weekend intensive workshop — introductory course of intuitive awareness",
+    Icon: CiReceipt,
+  },
+];
+
 export default function Works() {
   return (
-    <div
-      className="min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col justify-center py-[64px] md:py-32"
+    <section
       id="work"
+      className="relative min-h-svh isolate overflow-hidden px-[5.5%] py-24 bg-[#070B2A]"
     >
-      <h2 className="text-4xl text-white mb-10">Services</h2>
+      {/* smooth edge overlay if you use .noise-container from globals.css */}
+      <div className="noise-container pointer-events-none absolute inset-0 z-30" />
 
-      <div className="h-full grid grid-cols-1 md:grid-cols-3 gap-10">
-        <Link href="/works/one-to-one-session">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiVoicemail className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">
-              Zoom or in person: One-to-one session
-            </div>
-          </div>
-        </Link>
+      {/* subtle grid */}
+      <svg
+        aria-hidden
+        className="pointer-events-none absolute inset-0 h-full w-full opacity-15 z-0"
+      >
+        <defs>
+          <pattern
+            id="svc-grid"
+            width="32"
+            height="32"
+            patternUnits="userSpaceOnUse"
+          >
+            <path
+              d="M32 0H0V32"
+              fill="none"
+              stroke="white"
+              strokeOpacity="0.08"
+            />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#svc-grid)" />
+      </svg>
 
-        <Link href="/works/performance-and-mindfulness">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiViewTable className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">
-              Performance and mindfulness workshops
-            </div>
-          </div>
-        </Link>
+      {/* vignette */}
+      <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(60%_60%_at_50%_10%,_transparent_0%,_transparent_40%,_rgba(0,0,0,0.45)_100%)]" />
 
-        <Link href="/works/guest-lecturer">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiUser className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">Guest lecturer</div>
-          </div>
-        </Link>
+      <div className="relative z-20 mx-auto w-full max-w-6xl">
+        <h2 className="text-3xl md:text-5xl text-white mb-10">Services</h2>
 
-        <Link href="/works/corporate-training">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiSettings className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">Corporate training & coaching</div>
-          </div>
-        </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+          {services.map(({ href, title, Icon }, i) => (
+            <Link key={i} href={href} className="group focus:outline-none">
+              <div
+                className="
+                  relative h-full rounded-2xl border border-white/10 bg-white/[0.05]
+                  p-5 md:p-6 backdrop-blur-xl shadow-lg
+                  transition-transform duration-300 will-change-transform
+                  hover:-translate-y-1
+                  focus-visible:ring-2 focus-visible:ring-[#00E0FF]
+                "
+              >
+                {/* neon glow on hover */}
+                <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity duration-300 group-hover:opacity-100" />
 
-        <Link href="/works/i-factor">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiRead className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">The Intuition training program</div>
-          </div>
-        </Link>
+                {/* icon chip */}
+                <div className="mb-4 flex items-center justify-center">
+                  <div className="relative grid place-items-center h-20 w-20 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10">
+                    <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-tr from-[#00E0FF]/30 to-[#00FFC6]/20 blur-sm opacity-60" />
+                    <Icon className="relative h-10 w-10 text-white/90" />
+                  </div>
+                </div>
 
-        <Link href="/works/corporate-fee">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiChat1 className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">Corporate coaching fee</div>
-          </div>
-        </Link>
-        <Link href="/works/weekend-intensive">
-          <div className="p-5 rounded-xl h-[250px] text-white text-center transition duration-300 hover:border-white border border-gray-600 flex flex-col justify-center items-center gap-5 cursor-pointer">
-            <CiReceipt className="text-white w-full h-full max-w-[100px] max-h-[100px]" />
-            <div className="font-light">
-              <span className="font-bold">2 Day</span> <br /> Weekend intensive
-              workshop introductory course of intuitive awareness{" "}
-            </div>
-          </div>
-        </Link>
+                {/* title */}
+                <h3 className="text-white text-base md:text-lg text-center leading-snug">
+                  {title}
+                </h3>
+
+                {/* bottom accent */}
+                <div className="mt-5 h-px w-full bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,139 +1,171 @@
-import Lottie from 'react-lottie';
-import AboutAnimation from '../animations/AboutAnimation.json';
-import { useState } from 'react';
+"use client";
+
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
 
 export default function About() {
-  const [readMore, setReadMore] = useState<boolean>(false);
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: AboutAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
-  };
+  const [readMore, setReadMore] = useState(false);
 
   return (
-    <div
-      className='min-h-screen bg-gradient-to-b from-[#09124E] to-[#11247C] px-[5.5%] py-20 md:py-0 flex flex-col justify-center'
-      id='about'
+    <section
+      id="about"
+      className="relative min-h-svh overflow-hidden isolate flex items-center justify-center px-[5.5%] py-24 bg-[#070B2A] "
     >
-      <h2 className='text-2xl md:text-4xl mb-10 font-semibold md:font-normal text-white'>
-        About Ivan
-      </h2>
-      <div className='grid grid-cols-1  md:grid-cols-2 gap-20  pb-[6.5%]'>
-        <div
-          className={`${readMore ? 'block' : 'hidden'} flex flex-col gap-10`}
-        >
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            Ivan is a Mind coach and Psychologist as well as a pioneer,
-            practitioner and teacher of human potential . He has spent the last
-            20+ years in the area of positive psychology, holistic health and
-            accelerated learning. He lives and works by the motto that ‘Results
-            count’ and that anything we learn should be implemented into our
-            daily lives to help us have a more fulfilled life.
-          </p>
+      <div className="noise-container" />
 
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            In November 2019, Ivan co organized a set of international medical
-            conferences where experts from Japan, Ireland, China and Mongolia
-            shared and explored their understanding and the research in the area
-            of pain free operations without the use of general anesthetic.
-          </p>
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            With a large proportion of the world glued to A.I. its potential and
-            its possible devastating effect on society there are only a few
-            people who are developing themselves and those they teach. One of
-            the most effective – certainly in an applied way – is Ivan.
-          </p>
-
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            Ivan has spent over 20 years training, studying and applying what he
-            has learnt from psychology, yoga, meditation, mindfulness, intuitive
-            and perceptive training as well as his 25 plus years in the
-            workplace rising the career ladder through achieving exceptional
-            results with his clients in a variety of domains including:
-            psychotherapy, teaching, managerial skills, healing, and more
-            recently in human potential.
-          </p>
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            But perhaps what makes Ivan unique is that: Ivan is one of the few
-            people in the world who can{' '}
-            <span className='font-bold underline underline-offset-4'>
-              DEMONSTRATE DETAILED INTUITIVE AWARENESS on demand*
-            </span>{' '}
-            – in other words he can demonstrate the extraordinary (without any
-            tricks) at the drop of a hat. *According to research in
-            parapsychology - as few as{' '}
-            <span className='underline underline-offset-4'>
-              1 in 1000 claimed ‘psychics’
-            </span>{' '}
-            can demonstrate useful awareness at will. Ivan is one of these rare
-            few. See video for one of many demos Ivan performs:
-          </p>
-          <p className='text-sm md:text-xl text-blue-200 text-justify font-light flex flex-col'>
-            <a
-              href='https://www.youtube.com/watch?v=jiforOAnXWs'
-              target='_blank'
-            >
-              Intuition Expertise
-            </a>
-            <a
-              href='https://www.youtube.com/watch?v=XSYRvLZLgmk'
-              target='_blank'
-            >
-              My typical clairvoyance demonstrated
-            </a>
-          </p>
-
-          <div
-            className='underline underline-offset-8 cursor-pointer'
-            onClick={() => setReadMore(false)}
+      {/* Grid */}
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 h-full w-full opacity-15"
+      >
+        <defs>
+          <pattern
+            id="about-grid"
+            width="32"
+            height="32"
+            patternUnits="userSpaceOnUse"
           >
-            Read less
-          </div>
-        </div>
+            <path
+              d="M32 0H0V32"
+              fill="none"
+              stroke="white"
+              strokeOpacity="0.08"
+            />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#about-grid)" />
+      </svg>
 
-        <div
-          className={`${readMore ? 'hidden' : 'block'} flex flex-col gap-10`}
+      {/* Vignette */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_10%,_transparent_0%,_transparent_40%,_rgba(0,0,0,0.45)_100%)]" />
+
+      <div className="relative max-w-6xl mx-auto w-full">
+        <motion.h2
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-3xl md:text-5xl text-white mb-10"
         >
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            Ivan is a Mind coach and Psychologist as well as a pioneer,
-            practitioner and teacher of human potential . He has spent the last
-            20+ years in the area of positive psychology, holistic health and
-            accelerated learning. He lives and works by the motto that ‘Results
-            count’ and that anything we learn should be implemented into our
-            daily lives to help us have a more fulfilled life.
-          </p>
+          About Ivan
+        </motion.h2>
 
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            In November 2019, Ivan co organized a set of international medical
-            conferences where experts from Japan, Ireland, China and Mongolia
-            shared and explored their understanding and the research in the area
-            of pain free operations without the use of general anesthetic.
-          </p>
-          <p className='text-sm md:text-xl text-white text-justify font-light'>
-            With a large proportion of the world glued to A.I. its potential and
-            its possible devastating effect on society there are only a few
-            people who are developing themselves and those they teach. One of
-            the most effective – certainly in an applied way – is Ivan.
-          </p>
-          <div
-            className='underline underline-offset-8 cursor-pointer'
-            onClick={() => setReadMore(true)}
+        <div className="grid gap-10 md:gap-16">
+          {/* Text + Read more */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
           >
-            Read more
-          </div>
+            <div className="relative rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.35)]">
+              <div className="absolute -inset-[1px] rounded-[26px] bg-gradient-to-r from-[#00E0FF] via-[#3F5DCC] to-[#00FFC6] opacity-30 blur-md" />
+              <div className="relative space-y-5 text-white/90">
+                <p className="text-sm md:text-lg leading-relaxed">
+                  Ivan is a mind coach and psychologist, a pioneer and teacher
+                  of human potential. He has spent 20+ years in positive
+                  psychology, holistic health, and accelerated learning. His
+                  motto: results count, and learning should be applied to daily
+                  life.
+                </p>
+                <p className="text-sm md:text-lg leading-relaxed">
+                  In November 2019 he co-organized international medical
+                  conferences with experts from Japan, Ireland, China, and
+                  Mongolia on pain-free operations without general anesthetic.
+                </p>
+                <p className="text-sm md:text-lg leading-relaxed">
+                  While many focus on AI hype, Ivan develops people. His
+                  approach is practical and applied.
+                </p>
+
+                <AnimatePresence initial={false}>
+                  {readMore && (
+                    <motion.div
+                      key="more"
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.35 }}
+                      className="space-y-5 overflow-hidden"
+                    >
+                      <p className="text-sm md:text-lg leading-relaxed">
+                        He has trained across psychology, yoga, meditation,
+                        mindfulness, intuitive and perceptive training, plus 25+
+                        years of workplace experience delivering results in
+                        psychotherapy, teaching, management, healing, and human
+                        potential.
+                      </p>
+                      <p className="text-sm md:text-lg leading-relaxed">
+                        Ivan is one of the rare practitioners who can{" "}
+                        <span className="font-semibold underline underline-offset-4">
+                          demonstrate detailed intuitive awareness on demand
+                        </span>
+                        . Parapsychology research suggests as few as{" "}
+                        <span className="underline underline-offset-4">
+                          1 in 1000
+                        </span>{" "}
+                        claimed psychics can do so reliably.
+                      </p>
+                      <div className="text-sm md:text-base text-[#CFE7FF] space-y-2">
+                        <a
+                          href="https://www.youtube.com/watch?v=jiforOAnXWs"
+                          target="_blank"
+                          className="inline-flex items-center hover:text-white transition-colors"
+                          rel="noreferrer"
+                        >
+                          Intuition expertise →
+                        </a>
+                        <br />
+                        <a
+                          href="https://www.youtube.com/watch?v=XSYRvLZLgmk"
+                          target="_blank"
+                          className="inline-flex items-center hover:text-white transition-colors"
+                          rel="noreferrer"
+                        >
+                          Typical clairvoyance demo →
+                        </a>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
+                <button
+                  onClick={() => setReadMore((v) => !v)}
+                  className="mt-1 inline-flex items-center gap-2 text-[#9EC5FF] hover:text-white transition-colors underline underline-offset-8"
+                >
+                  {readMore ? "Read less" : "Read more"}
+                  <svg
+                    className={`h-4 w-4 transition-transform ${
+                      readMore ? "rotate-180" : ""
+                    }`}
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path d="M5.23 7.21a.75.75 0 011.06.02L10 10.2l3.71-2.97a.75.75 0 01.94 1.16l-4.24 3.4a.75.75 0 01-.94 0l-4.24-3.4a.75.75 0 01.02-1.06z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </motion.div>
         </div>
 
-        <div className='w-full'>
-          <img
-            className='object-cover w-[400px] object-top rounded-xl  m-auto'
-            src='images/ivan2.jpeg'
-          />
-        </div>
+        {/* Badges */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-10 flex flex-wrap items-center gap-3 text-xs md:text-sm text-white/70"
+        >
+          <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1">
+            Positive Psychology
+          </span>
+          <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1">
+            Intuition Training
+          </span>
+          <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1">
+            Workshops
+          </span>
+          <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1">
+            Corporate Programs
+          </span>
+        </motion.div>
       </div>
-    </div>
+    </section>
   );
 }

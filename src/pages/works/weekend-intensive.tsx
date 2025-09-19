@@ -1,72 +1,93 @@
-import GoBack from "@/components/utils/GoBack";
-import { useRouter } from "next/router";
+// app/works/weekend-intensive/page.tsx
+"use client";
 
-export default function Intensive() {
-  const router = useRouter();
+import WorkPageShell from "@/components/WorkPageShell";
 
+export default function WeekendIntensive() {
   return (
-    <div
-      className="min-h-screen bg-gradient-to-b from-[#09124E]  to-black px-[5.5%] flex flex-col  py-[64px] md:py-0"
-      id="work"
+    <WorkPageShell
+      title="Weekend intensive workshop"
+      subtitle="Introductory course of intuitive awareness"
     >
-      <div className="flex flex-col gap-10 md:mt-[5rem]">
-        <GoBack linkHref="#work" />
-        <h1 className="text-xl md:text-4xl text-green-400 mb-10 font-bold">
-          Weekend intensive workshop introductory course of intuitive awareness
-          {/* <span className='text-green-400'>One-to-one session</span> */}
-        </h1>
+      <p>
+        Most people know their phone better than their own mind—how to learn and
+        operate it for results. This workshop focuses on practical “human
+        technology” so participants build healthier, happier, more effective
+        lives.
+      </p>
+
+      <p>
+        The approach develops the person, not just their tools. With the right
+        mentoring you can unlock latent abilities and apply them in daily
+        decisions and performance.
+      </p>
+
+      <p>
+        Based on Ivan’s practice in heightened perception, rapid learning, and
+        advanced concentration, beginners progress quickly through core skills:
+      </p>
+
+      {/* Skills */}
+      <ul className="mt-1 grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {[
+          "Mnemonics",
+          "Advanced concentration training",
+          "Visualization with power",
+          "Practical intuition for decisions",
+          "Physical and mental relaxation",
+        ].map((t) => (
+          <li
+            key={t}
+            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 backdrop-blur-xl text-white/90"
+          >
+            {t}
+          </li>
+        ))}
+      </ul>
+
+      {/* One-day plan */}
+      <div className="group relative mt-4 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+        <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity group-hover:opacity-100" />
+        <h3 className="text-white text-lg md:text-xl font-semibold">
+          1-day workshop
+        </h3>
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3 text-white/90">
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Day</div>
+            <div className="text-base">Saturday</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Start time</div>
+            <div className="text-base">10:00 AM ET</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Fee</div>
+            <div className="text-base">$500 USD per person</div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex flex-col gap-5 font-light text-white">
-        <p>
-          We are living in a time when the majority of people know more about
-          their ‘Smart’ phone than the mechanisms of their own mind and more
-          importantly HOW to learn and HOW to operate their own mind for best
-          results. This trend needs to change if we are to have healthy, happy,
-          truly successful people and a society in the future.
-        </p>
-        <p>
-          I’m a pioneer in the area of HUMAN TECHNOLOGY. I like a growing number
-          of people see that by developing ourselves and not just tools and
-          technologies that we can have a much better quality of life in every
-          sense, not just materialistically but have a full life.
-        </p>
-
-        <p>
-          One of the keys to achieving more holistic success is to realize that
-          you right now have within you incredible latent abilities that with
-          the right mentoring will begin to be unleashed. Please note there is a
-          huge amount of research to show the value of this approach.
-        </p>
-
-        <p>
-          I have spent all of my adult life not only researching Human Potential
-          but more importantly practicing heightened perception, rapid learning
-          and advanced concentration techniques allowing me to easily teach a
-          beginner how to quickly learn the following human technologies:
-        </p>
-
-        <ul className="list-disc ml-5">
-          <li>Mnemonics</li>
-          <li>Advanced Concentration training</li>
-          <li>Visualization with Power</li>
-          <li>Practical use of Intuition (for making decisions etc.)</li>
-          <li>Physical and Mental relaxation</li>
-        </ul>
-
-        <p>1 day workshop</p>
-        <ul className="list-disc ml-5">
-          <li>Saturday from 10am ET</li>
-          <li>Fee per person: 500 USD</li>
-        </ul>
-
-        <p>2 day workshop</p>
-        <ul className="list-disc ml-5">
-          <li>Spanning over Saturday and Sunday</li>
-          <li>Starts Saturday at 10am ET</li>
-          <li>Fee per person: 850 USD</li>
-        </ul>
+      {/* Two-day plan */}
+      <div className="group relative mt-3 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+        <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity group-hover:opacity-100" />
+        <h3 className="text-white text-lg md:text-xl font-semibold">
+          2-day workshop
+        </h3>
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3 text-white/90">
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Days</div>
+            <div className="text-base">Saturday + Sunday</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Start time</div>
+            <div className="text-base">Saturday 10:00 AM ET</div>
+          </div>
+          <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+            <div className="text-xs text-white/70">Fee</div>
+            <div className="text-base">$850 USD per person</div>
+          </div>
+        </div>
       </div>
-    </div>
+    </WorkPageShell>
   );
 }

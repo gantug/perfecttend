@@ -39,11 +39,6 @@ export default function Home() {
           ],
           siteName: "Ivan Hopkins",
         }}
-        twitter={{
-          handle: "@handle",
-          site: "@site",
-          cardType: "summary_large_image",
-        }}
       />
       <Header />
       <Hero />

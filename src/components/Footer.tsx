@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-[5.5%] py-[24px] flex flex-row justify-between items-center w-full text-white bg-black font-light">
+    <footer className="px-[5.5%] py-[24px] flex flex-row justify-between items-center w-full text-white bg-[#040617] font-light">
       <div className="text-md md:text-xl  p-3 rounded-xl border-wid border-black">
         © 2025 Ivan Hopkins, all rights reserved.
       </div>
