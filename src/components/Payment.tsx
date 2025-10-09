@@ -144,6 +144,12 @@ export default function PaymentSection({
             Transfers may take 1–3 business days depending on your bank.
           </p>
         </footer>
+
+        <div className="pt-4 border-t border-white/10">
+          <p className="text-base md:text-lg text-white/80 text-center">
+            Alternatively, you can make payment via PayPal
+          </p>
+        </div>
       </div>
     </section>
   );
