@@ -8,7 +8,7 @@ type Vid = { id: string; title: string };
 const videos: Vid[] = [
   { id: "YEUFX349irw", title: "Intro and Background video" },
   { id: "GAAJ4P2g5oc", title: "Human Technology · My Vision" },
-  { id: "x0s2mZ9qCEs", title: "The 2 Prerequisites for Your Inner Tutor" },
+  { id: "A--z2ptn5nQ", title: "2 Core Skills to uncover intuition and demo" },
 ];
 
 function VideoCard({ id, title }: Vid) {
