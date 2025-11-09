@@ -4,6 +4,7 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import IntutorProgram from "@/components/IntutorProgram";
 import PaymentSection from "@/components/Payment";
 import Videos from "@/components/Videos";
 import Works from "@/components/Works";
@@ -45,6 +46,7 @@ export default function Home() {
       <About />
       <Experience />
       <Works />
+      <IntutorProgram />
       <PaymentSection
         accountHolder="Ivan Hopkins"
         bic="BOFIIE2DXXX"
