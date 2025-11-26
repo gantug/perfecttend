@@ -144,7 +144,7 @@ export default function Experience() {
                   title: "Intuition Expert",
                   body: "Can demonstrate intuitive awareness on demand, e.g., casually knowing face-down playing cards. See the video evidence: ",
                   link: {
-                    href: "https://www.youtube.com/watch?v=jiforOAnXWs",
+                    href: "https://www.youtube.com/watch?v=FJHR2zqI5R4",
                     label: "video link",
                   },
                 },

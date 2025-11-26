@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import IntutorProgram from "@/components/IntutorProgram";
 import PaymentSection from "@/components/Payment";
+import TestimonialVideos from "@/components/Testimonials";
 import Videos from "@/components/Videos";
 import Works from "@/components/Works";
 import { NextSeo } from "next-seo";
@@ -54,6 +55,7 @@ export default function Home() {
         bankName="Bank of Ireland"
         note="Include your description in the transfer reference."
       />
+      <TestimonialVideos />
       <Videos />
       <Contact />
       <Footer />
