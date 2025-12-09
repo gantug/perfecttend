@@ -30,7 +30,7 @@ const services = [
   },
   {
     href: "/works/i-factor",
-    title: "The Intuition training program",
+    title: "The Intutor training program",
     Icon: CiRead,
   },
   {
