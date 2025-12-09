@@ -67,7 +67,7 @@ export default function WorkPageShell({
           </Link>
 
           <h1 className="text-2xl md:text-4xl font-bold text-white">{title}</h1>
-          {subtitle ? <p className="text-white/80">{subtitle}</p> : null}
+          {subtitle ? <p className="text-white font-bold">{subtitle}</p> : null}
         </div>
 
         <div className="mt-6 flex flex-col gap-5 text-white/90 font-light">
