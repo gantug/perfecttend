@@ -57,7 +57,7 @@ export default function Hero() {
             {/* Glass */}
             <div className="relative rounded-3xl border border-white/10 bg-white/5 p-2 backdrop-blur-xl">
               <motion.img
-                src="images/ivans.jpeg"
+                src="images/ivan-image.jpg"
                 alt="Ivan portrait"
                 className="h-[240px] w-[240px] rounded-2xl object-cover object-top md:h-[300px] md:w-[300px]"
                 whileHover={{ scale: 1.03, rotate: -0.4 }}
