@@ -163,6 +163,148 @@ export default function TestimonialVideos() {
             <TestimonialVideoCard key={v.id} {...v} />
           ))}
         </div>
+
+        {/* Written Testimonials */}
+        <div className="mt-24">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            {/* First Testimonial */}
+            <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.05] backdrop-blur-xl shadow-lg p-6 md:p-8">
+              <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity group-hover:opacity-100" />
+              <div className="relative z-10">
+                <p className="mb-4 text-xs text-white/50">March 20th, 2017</p>
+                <h3 className="mb-4 text-lg font-semibold text-white">
+                  Re: Testimonial regarding Psychologist Ivan Hopkins
+                </h3>
+                <div className="space-y-4 text-sm leading-relaxed text-white/80 md:text-base">
+                  <p>
+                    Ivan helped me in so many ways, but I would like to express
+                    the recent and most astonishing result about my 6 years old
+                    son.
+                  </p>
+                  <p>
+                    Ivan gave me powerful advice about having the right mind set
+                    when communicating with my son and giving him the right
+                    encouragement and support. When I have a session with him he
+                    always tells me to encourage my son&apos;s goodness and
+                    bring out the potential in him. From then on I encouraged
+                    him whatever good he did and praised him for his success in
+                    doing tasks.
+                  </p>
+                  <p>
+                    For example, my son was preparing for an exam to enroll in
+                    first grade at &quot;Shine Mongol&quot; high school. Just
+                    over a month before the examination, I went to Ivan to get
+                    advice on how to prepare my son for the examination. Like
+                    always he told me to encourage him no matter what. He also
+                    taught me how to use a technique called &quot;positive
+                    reinforcement&quot;. This I applied with amazing results.
+                  </p>
+                  <p>
+                    I followed his advice and my son scored the top point out of
+                    955 children in the interview!
+                  </p>
+                  <p>
+                    I truly recommend Ivan as a therapist who knows exactly what
+                    an individual child needs and he truly knows his stuff.
+                  </p>
+                  <p className="mt-6 text-sm text-white/60">
+                    Please do not hesitate to contact me via email at{" "}
+                    <a
+                      href="mailto:d_emma48@yahoo.com"
+                      className="text-[#9EC5FF] underline underline-offset-4 hover:text-white"
+                    >
+                      d_emma48@yahoo.com
+                    </a>{" "}
+                    if you have any questions.
+                  </p>
+                </div>
+                <p className="mt-6 font-semibold text-white">
+                  With kind regards,
+                  <br />
+                  D. Dulamsuren
+                </p>
+              </div>
+            </div>
+
+            {/* Second Testimonial */}
+            <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.05] backdrop-blur-xl shadow-lg p-6 md:p-8">
+              <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-[#00E0FF]/0 via-[#3F5DCC]/10 to-[#00FFC6]/0 opacity-0 blur-md transition-opacity group-hover:opacity-100" />
+              <div className="relative z-10">
+                <p className="mb-4 text-xs text-white/50">19th June, 2017</p>
+                <h3 className="mb-4 text-lg font-semibold text-white">
+                  Re: Ivan Hopkins
+                </h3>
+                <div className="mb-6 space-y-2 text-sm text-white/70">
+                  <p className="font-semibold text-white">Margaret Forde</p>
+                  <p>
+                    Chartered Organizational and Counselling Psychologist (PsSI)
+                  </p>
+                  <p>Accredited Holistic Psychotherapist (IAHM)</p>
+                  <p>316 Howth Rd, Dublin, Ireland D05P024</p>
+                  <p>Tel +353 1 8339902</p>
+                  <p>Mobile: +353 86 290 82 52</p>
+                  <p>
+                    <a
+                      href="mailto:fordemargaret@gmail.com"
+                      className="text-[#9EC5FF] underline underline-offset-4 hover:text-white"
+                    >
+                      fordemargaret@gmail.com
+                    </a>
+                  </p>
+                </div>
+                <div className="space-y-4 text-sm leading-relaxed text-white/80 md:text-base">
+                  <p>
+                    Ivan Hopkins came to our College of Holistic Medicine in
+                    2012/2013 to take our diploma in Applied Positive
+                    Psychology. He had previously completed his degree in
+                    psychology specializing in mindfulness and mind training.
+                  </p>
+                  <p>
+                    He was a most dedicated and enthusiastic student. I also
+                    supervised the work he did with clients for a year after the
+                    course. He showed great integrity and practicality as a
+                    therapist and trainer, and got excellent results with
+                    individuals and groups. He showed himself to be very
+                    adaptable, utilizing techniques from different sources to
+                    obtain the best results. He had a passion for working with
+                    young people and parents in an educational setting, and set
+                    up some innovative and successful programs.
+                  </p>
+                  <p>
+                    I can confidently recommend him as a consultant and
+                    practitioner in youth wellbeing, parental education, and
+                    mental health promotion.
+                  </p>
+                  <p className="mt-6 text-sm text-white/60">
+                    Should you need more information, I can be reached on whats
+                    app or viber.
+                  </p>
+                </div>
+                <p className="mt-6 font-semibold text-white">
+                  Yours sincerely,
+                  <br />
+                  Margaret Forde, BA, H.Dip Ed, M. App Psych
+                </p>
+                <p className="mt-4 text-xs text-white/50">
+                  Corporate Wellness - Mindfulness - Leadership Development -
+                  Keynote Speaker
+                  <br />
+                  Director, Positive Psychology Coaching Institute{" "}
+                  <a
+                    href="https://www.positivepsychology.ie"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[#9EC5FF] underline underline-offset-4 hover:text-white"
+                  >
+                    www.positivepsychology.ie
+                  </a>
+                  <br />
+                  Director, Irish Association of Holistic Medicine
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
