@@ -62,11 +62,11 @@ export default function OneToOneSession() {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-white/90">
           <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
             <div className="text-xs text-white/70">EUR</div>
-            <div className="text-2xl font-bold">€180</div>
+            <div className="text-2xl font-bold">€450</div>
           </div>
           <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
             <div className="text-xs text-white/70">USD</div>
-            <div className="text-2xl font-bold">$200</div>
+            <div className="text-2xl font-bold">$500</div>
           </div>
         </div>
         <p className="mt-3 text-sm text-white/70">

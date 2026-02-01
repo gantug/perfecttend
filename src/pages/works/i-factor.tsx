@@ -75,7 +75,7 @@ export default function IntuitionTrainingProgram() {
           </div>
           <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
             <div className="text-xs text-white/70">Price</div>
-            <div className="text-base">$200 USD per session</div>
+            <div className="text-base">$500 USD per session</div>
           </div>
           <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 sm:col-span-2">
             <div className="text-xs text-white/70">Recommendation</div>
