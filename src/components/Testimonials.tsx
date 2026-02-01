@@ -22,6 +22,12 @@ const testimonialVideos: TestimonialVid[] = [
     url: "https://youtu.be/fM41iDqko5Q?feature=shared",
     title: "How Ivan's work changed my decisions",
   },
+  {
+    id: "-B6dQ7jB7SM",
+    kind: "youtube",
+    url: "https://www.youtube.com/shorts/-B6dQ7jB7SM",
+    title: "Testimonials of 2 volunteers (Short)",
+  },
 ];
 
 function TestimonialVideoCard({ id, title, kind, url }: TestimonialVid) {
